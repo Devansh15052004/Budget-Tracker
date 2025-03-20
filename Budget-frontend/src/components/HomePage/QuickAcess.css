@@ -1,0 +1,44 @@
+.quick-access-container {
+    border: 1px solid white;
+    width: 80%;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #2196F3;
+    margin: auto; /* Center the container */
+}
+
+.quick-access-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quick-access-buttons {
+    display: flex;
+    justify-content: space-evenly; /* Space between buttons */
+    align-items: center;
+    flex-wrap: nowrap; /* Ensure buttons stay in one row */
+    margin-bottom: 15px;
+}
+
+.quick-access-btn {
+    width: 180px;
+    height: 70px;
+    display: inline-flex; /* Keep button elements inline */
+    flex-direction: row; /* Keep icon and text in a row */
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    transition: background 0.3s ease;
+    gap: 8px; /* Add space between icon and text */
+}
+
+.quick-access-btn:hover {
+    background-color: #d6d6d6;
+}

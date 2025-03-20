@@ -1,0 +1,85 @@
+/* Overview Container */
+.overview-container {
+    background-color: #2196F3;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 79%;
+    /* max-width: 500px; */
+    box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Title */
+.overview-container h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Divider */
+.overview-container hr {
+    border: 1px solid #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Overview Item */
+.overview-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #fcfbfb, #fcfbfb);
+    padding: 14px 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.2s ease, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.overview-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Text Styles */
+.overview-item span {
+    font-weight: 600;
+}
+
+/* Budget Colors */
+.budget {
+    color: #ffc107; /* Yellow */
+    font-weight: bold;
+}
+
+.balance {
+    color: #28a745; /* Green */
+    font-weight: bold;
+}
+
+.spent {
+    color: #dc3545; /* Red */
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .overview-container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .overview-item {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
