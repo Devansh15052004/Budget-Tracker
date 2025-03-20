@@ -1,0 +1,41 @@
+.table-container {
+    margin-top: 10px;
+    overflow-x: auto;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+}
+
+.transaction-table th,
+.transaction-table td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+.transaction-table th {
+    background: rgb(214, 212, 209);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.transaction-table tr:nth-child(even) {
+    background: white;
+}
+
+.transaction-table tr:hover {
+    background:rgb(214, 212, 209);
+}
+
+.chip {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: #007bff;
+    color: black;
+    font-weight: bold;
+}
