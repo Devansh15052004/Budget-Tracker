@@ -1,0 +1,10 @@
+/* Layout.css */
+.layout {
+    display: flex;
+  }
+  
+  .content {
+     /* Space for sidebar */
+    flex: 1; /* Take up remaining space */
+  }
+  
